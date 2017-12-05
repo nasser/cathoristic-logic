@@ -3,6 +3,10 @@ F#/Clojure implementation of Cathoristic Logic
 
 Ported from [the original Haskell implementation](https://github.com/RichardEvans/cathoristic-logic/blob/master/README.md) to F# with a ClojureCLR wrapper. Much thanks to @vivid-synth for the Haskell guidance.
 
+### Status
+
+Still rough, don't use for anything important. 25/26 of the original tests are passing.
+
 ### Building
 
 The F# compiler will issue warnings that you should ignore. It should produce `Cathoristic.dll` and `FSharp.Core.dll` in the same directory.
